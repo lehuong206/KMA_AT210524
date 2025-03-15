@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<math.h>
+int main() {
+int n,i,
+k=1;
+scanf("%d",&n);
+for (i=0; i<4; i++){
+k=k*n;
+printf("%d \n",k);}
+return 0;
+}
